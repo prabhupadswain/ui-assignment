@@ -19,14 +19,17 @@
 
 .flex-container > button {
   width: 45px;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
 }
 
 .flex-container > i {
   width: 40px;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px;
   text-align: center;
+  justify-content: center;
+  vertical-align: auto;
 }
 
 .bar1,
@@ -39,9 +42,9 @@
   transition: 0.4s;
 }
 
-#paraText {
-  margin-top: 2px;
-  margin-bottom: 2px;
+.paraText {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
 }
 
 .threeSimple {
@@ -56,6 +59,13 @@
   padding-bottom: 0.1rem;
 }
 
+.btnSearchVehicle {
+  background-color: orange;
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  color: white;
+}
 .textColor {
   color: orange;
 }
@@ -65,7 +75,7 @@
 }
 
 .footerFlexMenu {
-  margin-right: 8%;
+  margin-right: 7%;
 }
 
 .footerFlexMenuIcon {
