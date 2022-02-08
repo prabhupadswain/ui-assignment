@@ -59,3 +59,15 @@
 .textColor {
   color: orange;
 }
+
+#footerMenu {
+  display: flex;
+}
+
+.footerFlexMenu {
+  margin-right: 8%;
+}
+
+.footerFlexMenuIcon {
+  margin-right: 5%;
+}
