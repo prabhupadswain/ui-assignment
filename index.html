@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/stylesheet.css" rel="stylesheet" />
-    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
@@ -18,8 +18,9 @@
       <div class="container">
         <a class="navbar-brand" href="#">RentCo</a>
         <div
-          class="collapse navbar-collapse justify-content-center"
+          class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
+          
         >
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -39,6 +40,7 @@
             </li>
           </ul>
         </div>
+        <div class="flex-container">
           <button
             class="custom-navbar-toggler"
             type="button"
@@ -53,11 +55,16 @@
             <div class="bar3"></div>
         </button>
           <i class="bi bi-search"></i></span>
-          <button>SIGN IN</button>
+          <button style="width:80px">SIGN IN</button>
+        </form>
+        </div>
         </div>  
       </div>
     </nav>
     <!--Navigation bar complete-->
+    <br/>
+    <br/>
+    <!--Car Section started-->
     <div class="container">
     <div class="row">
         <div class="col">
@@ -68,36 +75,39 @@
             <p id="paraText">make trip available</p>
             <p style="margin-top:50px">How to search and Trip</p>
         </div>
-        <div id="mainDivBackground"class="col"></div>
+        <div class="col">
+          <img src="img/Rent-Car.jpg" alt="rent-car" width="350px" height="350px" />
+        </div>
     </div>
     </div>
     <!--Car Section complete-->
-
-    <!--Fill your trip details-->
+    <br/>
+    <br/>
+    <!--Make your trip details-->
     <div class="container p-5 my-5 border">
         <h1>Make you trip</h1>
         <h2 style="margin-top:2rem;font-weight:200">Fill in your Trip details</h2>
         <div class="mt-20 d-flex">
             <div class="p-2 mt-10 flex-fill">
                 <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <label for="source">WHERE YOU FROM</label><br>
+                    <input type="text" id="source" name="source" placeholder="Your Pickup Address"><br>
                 </form>
             </div>
             <div class="p-2 mt-10 flex-fill">
                 <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <label for="destination">WHERE YOU GO</label><br>
+                    <input type="text" id="destination" name="destination" placeholder="Destination Address"><br>
                 </form>
             </div>
             <div class="p-2 mt-10 flex-fill">
                 <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <label for="jdate">JOURNEY DATE</label><br>
+                    <input type="date" id="jdate" name="jdate"><br>
                 </form></div>
             <div class="p-2 mt-10 flex-fill"><form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <label for="rdate">RETURN DATE</label><br>
+                <input type="date" id="rdate" name="rdate"><br>
             </form></div>
             <div class="p-2 mt-10 flex-fill">
                 <br>
@@ -105,7 +115,82 @@
             </div>
           </div>
       </div>
-      <!--Search Vehicle complete here-->
-    <script src="bootstrap.bundle.js"></script>
+      <!--Make your trip details over-->
+      <br/>
+      <br/>
+      <!--Three Simple Steps started-->
+      <section class="threeSimple">
+        <h1>Three Simple Steps</h1>
+        <p>Sign up in Seconds, do the step easily and start <br/>
+        feeling your experience
+      </p>
+      </section>
+      <!--Three Simple Steps over-->
+      <br/>
+      <br/>
+      <!--Three Simple extension-->
+      <div class="container mt-3">
+      <div class="row">
+        <div class="col p-3">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="img/search.png" alt="Search image" width="250px" height="250px">
+            <div class="card-body">
+              <h4 class="card-title">01.Search Location</h4>
+              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-3">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="img/payment.jpg" alt="Card image" width="250px" height="250px">
+            <div class="card-body">
+              <h4 class="card-title">02.Easy Payment</h4>
+              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>   
+            </div>
+          </div>
+        </div>
+        <div class="col p-3">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="img/travel logo.jpg" alt="Card image" width="250px" height="250px">
+            <div class="card-body">
+              <h4 class="card-title">03.Make Trip</h4>
+              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>    
+            </div>
+          </div>
+      </div>
+    </div>
+      <!--Three Simple extension complete-->
+      <br />
+      <br />
+      <!--SUV Section , happy Gurus-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="img/suv.jpg" alt="rent-car" width="300px" height="300px" />
+          </div>
+          <div class="col">
+            <h1>We Provide Premium Car with high<br />
+              quality</h1>
+            <p>Our company was Built by trust and reputation. We know how to make our<br />
+              customers love us by our high product with affordable prices. We promise<br />
+              to make you have the interesting experience</p>
+              <br />
+              <br />
+              <br />
+              <h4 class="textColor">CERTIFICATE BY GURUS</h2>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <section class="threeSimple">
+        <h3>Happy User</h3>
+        <p>Our Happy User, do the steps easily and start feeling <br/>
+        your new experience</p>
+      </section>
+    
+
+    <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>

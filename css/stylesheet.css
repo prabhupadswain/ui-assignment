@@ -4,12 +4,29 @@
   line-height: 1;
   background-color: orange;
   border: 1px solid transparent;
-  border-radius: 3rem;
+  border-radius: 5rem;
   transition: box-shadow 0.15s ease-in-out;
 }
 
 .custom-nav {
   margin-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container > button {
+  width: 45px;
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-container > i {
+  width: 40px;
+  margin: 10px;
+  text-align: center;
 }
 
 .bar1,
@@ -22,11 +39,23 @@
   transition: 0.4s;
 }
 
-#mainDivBackground {
-  background-image: url('Rent-Car.jpg');
-}
-
 #paraText {
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+.threeSimple {
+  font-weight: bold;
+  text-align: center;
+}
+
+#paraFeeling {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.textColor {
+  color: orange;
 }
