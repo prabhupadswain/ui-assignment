@@ -1,0 +1,32 @@
+.custom-navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: orange;
+  border: 1px solid transparent;
+  border-radius: 3rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.custom-nav {
+  margin-bottom: 50px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+#mainDivBackground {
+  background-image: url('Rent-Car.jpg');
+}
+
+#paraText {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
