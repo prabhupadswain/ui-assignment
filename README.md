@@ -1,10 +1,12 @@
-Its a web page made in HTML, CSS, JS, BootStrap so far.
+# UI Assignment
 
-Also, custom css classes in an external stylesheet are created for web design. Due, to this the responsive design is affeted a little bit but its still responsive and responsiveness is present.
+1.Its a web page made in HTML, CSS, JS, BootStrap so far.
 
-Inline styling isused as and when required.
+2.Also, custom css classes in an external stylesheet are created for web design. Due, to this the responsive design is affeted a little bit but its still responsive and responsiveness is present.
 
-A custom JS code by the name of customFooter is added to project folder to display the current year in the footer
+3.Inline styling isused as and when required.
+
+4.A custom JS code by the name of customFooter is added to project folder to display the current year in the footer
 
 # Note:
 
