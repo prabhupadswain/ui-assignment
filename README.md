@@ -6,15 +6,15 @@ Inline styling isused as and when required.
 
 A custom JS code by the name of customFooter is added to project folder to display the current year in the footer
 
-#Note:
+# Note:
 
 -> Bootstrap files are downloaded are only the required bootstrap files and JS files from the getbootstrap website is used after download.
 
 -> CDN links are used for font-awesome icons and bootstrap icons.
 
-#Important Note:
+# Important Note:
 
-#This is observed on my device on my present browser:
+# This is observed on my device on my present browser:
 
 In browser, Google Chrome, on my device to view the responsiveness, after clicking on Inspect, to see the responsive display, if the responsiveness is not seen, you need click Toggle Device Toolbar to see the responsiveness.
 
