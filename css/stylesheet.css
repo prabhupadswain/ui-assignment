@@ -66,6 +66,7 @@
   height: 2rem;
   color: white;
 }
+
 .textColor {
   color: orange;
 }
@@ -78,6 +79,19 @@
   margin-right: 7%;
 }
 
+.footerFlexMenu > p {
+  opacity: 1;
+  color: #6c757d;
+}
+
+.footerFlexMenu > h5 {
+  font-weight: bolder;
+}
+
 .footerFlexMenuIcon {
   margin-right: 5%;
+}
+
+label {
+  font-weight: bold;
 }

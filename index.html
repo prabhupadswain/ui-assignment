@@ -26,22 +26,22 @@
           >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page</a>
+              <a class="nav-link" href="#page">Page</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Price</a>
+              <a class="nav-link" href="#price">Price</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -72,11 +72,11 @@
     <br/>
 
     <!--Car Section started-->
-    <div class="container">
+    <div id="home" class="container">
     <div class="row">
         <div class="col">
-            <h1>Now</h1>
-            <h1>It's easy for for you</h1>
+            <h1 class="text-muted">Now</h1>
+            <h1>It's Easy for for you</h1>
             <h1>rent a car</h1>
             <p class="paraText">Sign Up in Seconds. Easy payment and </p>
             <p class="paraText">make trip available</p>
@@ -93,32 +93,32 @@
     <br/>
     <br/>
     <!--Make your trip details-->
-    <div class="container p-5 my-5 border">
+    <div id="page" class="container p-5 my-5 border">
         <h1>Make you trip</h1>
-        <h2 style="margin-top:2rem;font-weight:200">Fill in your Trip details</h2>
-        <div class="mt-20 d-flex">
-            <div class="flex-fill">
+        <h3 style="margin-top:2rem;margin-bottom:2rem;font-weight:400">Fill in your Trip details</h3>
+        <div class="footerMenu">
+            <div class="footerFlexMenu">
                 <form>
                     <label for="source">WHERE YOU FROM</label><br><br>
-                    <input type="text" id="source" name="source" placeholder="Your Pickup Address"><br>
+                    <input type="text" id="source" name="source" placeholder="Your Pickup Address">
                 </form>
             </div>
-            <div class="flex-fill">
+            <div class="footerFlexMenu">
                 <form>
                     <label for="destination">WHERE YOU GO</label><br><br>
-                    <input type="text" id="destination" name="destination" placeholder="Destination Address"><br>
+                    <input type="text" id="destination" name="destination" placeholder="Destination Address">
                 </form>
             </div>
-            <div class="flex-fill">
+            <div class="footerFlexMenu">
                 <form>
                     <label for="jdate">JOURNEY DATE</label><br><br>
-                    <input type="date" id="jdate" name="jdate"><br>
+                    <input type="date" id="jdate" name="jdate">
                 </form></div>
-            <div class="flex-fill"><form>
+            <div class="footerFlexMenu"><form>
                 <label for="rdate">RETURN DATE</label><br><br>
-                <input type="date" id="rdate" name="rdate"><br>
+                <input type="date" id="rdate" name="rdate">
             </form></div>
-            <div class="flex-fill">
+            <div class="footerFlexMenu">
                 <br>
                 <br>
                 <button class="rounded btnSearchVehicle"><i class="fas fa-search"></i> Search Vehicle</button>
@@ -128,9 +128,9 @@
       <!--Make your trip details over-->
 
       <br/>
-      <br/>
+      
       <!--Three Simple Steps started-->
-      <section class="threeSimple">
+      <section id="price" class="threeSimple">
         <h1>Three Simple Steps</h1>
         <p>Sign up in Seconds, do the step easily and start <br/>
         feeling your experience
@@ -139,8 +139,7 @@
 
       <!--Three Simple Steps over-->
       <br/>
-      <br/>
-
+      
       <!--Three Simple extension-->
       <div class="container mt-3">
       <div class="row">
@@ -148,8 +147,8 @@
           <div class="card" style="width:300px">
             <img class="card-img-top" src="img/search.png" alt="Search image" width="250px" height="250px">
             <div class="card-body">
-              <h4 class="card-title">01.Search Location</h4>
-              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>
+              <h3 class="card-title text-center">01. Search Location</h3>
+              <p class="card-text  text-center">Sign Up in seconds. Easy paymemt and Make Trip Available</p>
             </div>
           </div>
         </div>
@@ -157,8 +156,8 @@
           <div class="card" style="width:300px">
             <img class="card-img-top" src="img/payment.jpg" alt="Card image" width="250px" height="250px">
             <div class="card-body">
-              <h4 class="card-title">02.Easy Payment</h4>
-              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>   
+              <h3 class="card-title text-center">02. Easy Payment</h3>
+              <p class="card-text  text-center">Sign Up in seconds. Easy paymemt and Make Trip Available</p>   
             </div>
           </div>
         </div>
@@ -166,8 +165,8 @@
           <div class="card" style="width:300px">
             <img class="card-img-top" src="img/travel logo.jpg" alt="Card image" width="250px" height="250px">
             <div class="card-body">
-              <h4 class="card-title">03.Make Trip</h4>
-              <p class="card-text">Sign Up in seconds. Easy paymemt and Make Trip Available</p>    
+              <h3 class="card-title text-center">03. Make Trip</h3>
+              <p class="card-text  text-center">Sign Up in seconds. Easy paymemt and Make Trip Available</p>    
             </div>
           </div>
       </div>
@@ -177,18 +176,17 @@
       <br />
 
       <!--SUV Section , happy Gurus-->
-      <div class="container">
+      <div id="about"class="container">
         <div class="row">
           <div class="col">
             <img src="img/suv.jpg" alt="rent-car" width="300px" height="300px" />
           </div>
           <div class="col">
-            <h1>We Provide Premium Car with high<br />
-              quality</h1>
-            <p>Our company was Built by trust and reputation. We know how to make our<br />
+            <h1>We Provide Premium Car with high quality</h1>
+            <p class="text-muted">Our company was Built by trust and reputation. We know how to make our<br />
               customers love us by our high product with affordable prices. We promise<br />
               to make you have the interesting experience</p>
-              <h4 class="textColor mt-5 pt-5">CERTIFICATE BY GURUS</h2>
+              <h6 class="textColor mt-5 pt-5 fw-bold">CERTIFICATED BY GURUS</h6>
           </div>
         </div>
       </div>
@@ -197,9 +195,9 @@
       <br />
 
       <!--Gallery Section started-->
-      <section class="threeSimple">
-        <h3>Happy User</h3>
-        <p>Our Happy User, do the steps easily and start feeling <br/>
+      <section id="gallery" class="threeSimple">
+        <h2 class="fw-bold">Happy User</h2>
+        <p class="text-muted mt-4">Our Happy User, do the steps easily and start feeling <br/>
         your new experience</p>
       </section>
       <br />
@@ -231,12 +229,12 @@
         <p class="text-muted" style="text-align: center;">Review via Facebook</p>
       </div>
       <!-- Gallery section completed-->
-      
+
       <br />
       <br />
 
       <!--Contact Us started-->
-      <section style="text-align:center">
+      <section id="contact" style="text-align:center">
         <h2>Call For <span class="textColor">Registration</span></h2>
         <p style="font-weight:bold; font-size: 0.8rem;">we offer you best experience in the city</p>
         <p style="font-weight:bold">+00 123 456 789</p>
@@ -250,7 +248,7 @@
         <div id="footerMenu">
           <div class="footerFlexMenu"><img src="img/mercedes.jpg" alt="Car" width="150px" height="150px"></div>
           <div class="footerFlexMenu">
-            <h4>Sitemap</h4>
+            <h5>Sitemap</h5>
             <p>Home</p>
             <p>About</p>
             <p>Car List</p>
@@ -258,21 +256,21 @@
             <p>Featured car</p>
           </div>
           <div class="footerFlexMenu">
-            <h4>Support</h4>
+            <h5>Support</h5>
+            <p>Contact Us</p>
             <p>Sign In</p>
             <p>Help</p>
             <p>Terms and condition</p>
-            <p>Contact Us</p>
           </div>
           <div class="footerFlexMenu">
-            <h4>Address</h4>
+            <h5>Address</h5>
             <p>4623 Heavner Court,</p>
             <p>Pato, lowa-50217</p>
             <p>+00 123 456 789</p>
             <p>Contact@site.com</p>
           </div>
           <div>
-            <p>Sign Up for monthly newspaper</p>
+            <p class="text-muted fw-normal">Sign Up for monthly newspaper</p>
             <input type="email" placeholder="Enter email address"><span
               style="border: 1px solid gray;padding:3px; background-color: orange;"><i class="fas fa-paper-plane"></i>
             </span><br /> <br />
@@ -285,7 +283,7 @@
           </div>
         </div>
         <section style="text-align:center">
-          <h3 id="footerHeading">Rent<span class="textColor">co</span></h3>
+          <h5 id="footerHeading">Rent<span class="textColor">co</span></h5>
           <footer>&copy; <span id="footerSpan"></span> all rights reserved</footer>
         </section>
       </div>
